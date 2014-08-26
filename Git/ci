@@ -1,0 +1,10 @@
+#!/bin/bash
+
+branch=$(echo "$(git branch|grep \\* | cut -d ' ' -f2)")
+user=$(echo $USERNAME|sed -e 's/^\(\w\).*\.\(\w\).*/\1\2/')
+echo "Who is your pair $USERNAME?"
+read pair
+echo "Starting commit on $branch for $user and $pair"
+read commitMessage
+git add -A .
+git commit -am "$branch - $commitMessage - $pair $user"

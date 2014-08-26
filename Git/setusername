@@ -1,0 +1,8 @@
+#!/bin/bash
+developers="ed.petit bj.self brian.smith cory.huebner paul.brower ora.brown adam.ritzel michael.petter"
+
+select username in $developers; do
+    git config --global user.name $username
+    git config --global user.email "$username@asolutions.com"
+    break
+done

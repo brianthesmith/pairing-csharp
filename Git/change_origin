@@ -1,0 +1,3 @@
+#!/bin/bash
+USER=`git config user.name`
+sed -r -i "/remote \"origin\"/,+2s/[a-zA-Z\\.]?*[a-zA-Z]?@?git.asolutions.com/$USER@git.asolutions.com/" .git/config 

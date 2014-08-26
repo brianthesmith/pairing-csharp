@@ -1,0 +1,27 @@
+#gitignore file
+[Oo]bj
+[Bb]in
+/[Bb]uild
+/[Bb]uild[Tt]ms
+/[Bb]uild[Aa]pi
+/[Bb]uild[Mm]ock[Dd][Bb]
+/[Bb]uild[Dd][Bb]
+/[Bb]uild[Ii]ntegration[Ww]eb
+*.user
+*.suo
+*.[Cc]ache
+*.bak
+*.ncb
+*.log 
+*.DS_Store
+[Tt]humbs.db 
+_ReSharper.*
+*.dotCover
+*.resharper
+*.DotSettings
+Thumbs.db
+
+_NCrunch_*/
+#*.ncrunch*
+
+*.nupkg
