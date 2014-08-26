@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSystem", "HRSystem\HRSystem.csproj", "{B13E1E23-D66C-4731-B3BA-06CBD5E7EB71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRSystem.UnitTest", "HRSystem.UnitTest\HRSystem.UnitTest.csproj", "{092E8915-6902-4D45-B58C-E87BEFB81409}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{B13E1E23-D66C-4731-B3BA-06CBD5E7EB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B13E1E23-D66C-4731-B3BA-06CBD5E7EB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B13E1E23-D66C-4731-B3BA-06CBD5E7EB71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092E8915-6902-4D45-B58C-E87BEFB81409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092E8915-6902-4D45-B58C-E87BEFB81409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092E8915-6902-4D45-B58C-E87BEFB81409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092E8915-6902-4D45-B58C-E87BEFB81409}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
